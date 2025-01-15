@@ -5,6 +5,14 @@
 
   <h4 align="center">See It In Action <a href="https://sheikhasif-ali.github.io/#newsWala">Here!</a></h4>
 
+<div style="display: flex; justify-content: center;">
+   <img src="assets/Screenshot_1736872907.png" width="270" height="480" alt="Alt text for the image">
+    <img src="assets/Screenshot_1736872916.png" width="270" height="480" alt="Alt text for the image">
+     <img src="assets/Screenshot_1736872938.png" width="270" height="480" alt="Alt text for the image">
+  
+</div>
+
+
   <p align="center">
     A News App using dio and NEWS API
     <br>
@@ -30,25 +38,43 @@
 This is a normal flutter app. You should follow the instructions in the [official documentation](https://flutter.io/docs/get-started/install).
 ## Run Locally
 
-Clone the project
+<b>Clone the project</b>
 
 ```bash
   https://github.com/sheikhasif-ali/news_wala.git
 ```
 
-Go to the project directory
+<b>Go to the project directory</b>
 
 ```bash
   cd news_wala
 ```
 
-Install dependencies
+<b>Install dependencies</b>
 
 ```bash
   flutter pub get
 ```
 
-Run the project
+<b>Add API Key</b>
+
+Go to <a href="https://newsapi.org/">News API</a> and get an API Key. Then open the api_key.dart file
+
+```bash
+  cd news_wala/lib/api/api_key.dart
+```
+
+and add your API Key to the apiKey field.
+```dart
+class ApiKey {
+  //enter your api key here
+  final String apiKey = '';
+}
+```
+<br>
+
+
+<b>Run the project</b>
 
 ```bash
   flutter run
