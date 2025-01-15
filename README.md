@@ -89,7 +89,7 @@ class ApiKey {
 
 ## Bugs and feature requests
 
-Have a bug or a feature request? [please open a new issue](https://github.com/Ismaestro/flutter-example-app/issues/new).
+Have a bug or a feature request? [please open a new issue](https://github.com/sheikhasif-ali/news_wala/issues).
 
 ## Creator
 
